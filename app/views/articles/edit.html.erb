@@ -2,4 +2,8 @@
 
 <%= render "form", article: @article %>
 
+<ul>
+  <li><%= link_to "View article", article_path(@article) %></li>
+</ul>
+
 <%= render "link_to_all" %>
